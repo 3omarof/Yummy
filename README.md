@@ -33,11 +33,11 @@ This app lets users explore meals by category, area, ingredients, and more — w
 
 ## 📷 Screenshots
 
-<img src="./Imgs For Github/home.png" alt="Yummy Preview" width="800"/>
-<img src="./Imgs For Github/meals.png" alt="Yummy Preview" width="800"/>
-<img src="./Imgs For Github//Informations.png" alt="Yummy Preview" width="800"/>
-<img src="./Imgs For Github/City.png" alt="Yummy Preview" width="800"/>
-<img src="./Imgs For Github/Contacts.png" alt="Yummy Preview" width="800"/>
+<img src="./ImgsForGithub/home.png" alt="Yummy Preview" width="800"/>
+<img src="./ImgsForGithub/meals.png" alt="Yummy Preview" width="800"/>
+<img src="./ImgsForGithub/Informations.png" alt="Yummy Preview" width="800"/>
+<img src="./ImgsForGithub/City.png" alt="Yummy Preview" width="800"/>
+<img src="./ImgsForGithub/Contacts.png" alt="Yummy Preview" width="800"/>
 
 
 
