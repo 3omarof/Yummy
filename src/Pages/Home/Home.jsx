@@ -52,15 +52,17 @@ export default function Home() {
             eveniet. Eum quas beatae cumque eum quaerat. Book a Table
           </p>
           <div className="buttons flex space-x-6">
-            <button className="btn rounded-tl-none rounded-2xl bg-lime-600 text-white hover:bg-lime-700">
-              Book a Table
-            </button>
-            <button className="flex items-center">
+            <Link
+            to={'/contact'}
+            className="btn rounded-tl-none rounded-2xl bg-lime-600 text-white hover:bg-lime-700">
+              Leave A Message
+            </Link>
+            <a href="https://www.youtube.com/" target="_blank" className="flex items-center">
               <span className="flex items-center bg-red-600 mr-2 text-white justify-center w-8 h-8 rounded-full">
                 <i className="fa-solid fa-play"></i>
               </span>
               <span className="font-semibold">Watch a Video</span>
-            </button>
+            </a>
           </div>
         </div>
         <div className="homeImg mt-2 md:mt-0">
@@ -103,8 +105,9 @@ export default function Home() {
             </Link>
           ))
         ) : (
-          <p className="text-center col-span-full text-gray-500 dark:text-gray-400 text-xl">
-            No meals found.
+          <p className="text-center col-span-full text-red-500 font-bold flex flex-col dark:text-gray-400 text-xl">
+            <span className="text-3xl"><i className="fa-solid fa-face-sad-cry"></i></span>
+            No meals With this Name
           </p>
         )}
       </div>

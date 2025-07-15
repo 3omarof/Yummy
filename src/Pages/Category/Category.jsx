@@ -41,13 +41,12 @@ export default function Category() {
             key={category.idCategory}
             className="relative group overflow-hidden rounded-lg shadow bg-white dark:bg-gray-800"
           >
-            <Link to={`/mealdetails/${category.strCategory}`}>
-              <img
-                src={category.strCategoryThumb}
-                alt={category.strCategory}
-                className="rounded-lg w-full h-48 object-cover"
-              />
-            </Link>
+            <img
+              src={category.strCategoryThumb}
+              alt={category.strCategory}
+              className="rounded-lg w-full h-48 object-cover"
+            />
+
             <div className="absolute inset-0 bg-white dark:bg-gray-900 bg-opacity-80 p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
               <h3 className="text-2xl font-bold mb-2 text-black dark:text-white">
                 {category.strCategory}
