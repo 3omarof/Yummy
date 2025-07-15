@@ -1,12 +1,54 @@
-# React + Vite
+# 🍽️ Meals App with React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Meals App**, a recipe browser built with **React**, **React Router**, **TanStack Query**, and **Tailwind CSS**.  
+This app lets users explore meals by category, area, ingredients, and more — with dark mode support and full responsiveness.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔥 Features
 
-## Expanding the ESLint configuration
+- 🍽️ Explore meals by **category**, **area**, or **ingredients**
+- 🔍 **Search** meals by name
+- 📄 Detailed meal pages with instructions, area, category, tags, YouTube link, and recipe ingredients
+- 🌙 **Support Dark Mode Toggle**
+- 🧭 Sidebar navigation and responsive design
+- 🧾 Not Found (404) Page
+- ⚙️ Efficient data fetching with **TanStack Query**
+- 🔄 Loading and error states with graceful fallback UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧰 Tech Stack
+
+- **React**
+- **React Router DOM**
+- **Axios**
+- **TanStack React Query**
+- **Tailwind CSS**
+- **Formik & Yup** (Contact Form)
+- **React Hot Toast** (Feedback messages)
+- **Font Awesome** (icons)
+
+---
+
+## 📷 Screenshots
+
+<img src="./Imgs For Github/home.png" alt="Yummy Preview" width="800"/>
+<img src="./Imgs For Github/meals.png" alt="Yummy Preview" width="800"/>
+<img src="./Imgs For Github//Informations.png" alt="Yummy Preview" width="800"/>
+<img src="./Imgs For Github/City.png" alt="Yummy Preview" width="800"/>
+<img src="./Imgs For Github/Contacts.png" alt="Yummy Preview" width="800"/>
+
+
+
+---
+
+## 🔗 Live Demo
+
+👉 [Click here to view the project live](https://yummy-pi-ten.vercel.app/)
+
+## 🙋‍♂️ Author
+
+Made by **Omar Tamer**  
+[GitHub](https://github.com/3omarof)
+
